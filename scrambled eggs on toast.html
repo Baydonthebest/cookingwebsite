@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Scrambled Eggs on Toast</title>
+     <link type="text/css" rel="stylesheet" href="Css/my-first-stylesheet.css"/>
+    </head>
+    <body>
+        <header>
+        <h1 class="logo"><sup><sup>Braydens</sup>Cooking</sup>and Baking</h1>
+        </header>
+        <nav>
+        <ul>
+           <li><a href="index.html">Home</a></li> 
+            <li><a href="baking.html">Baking</a></li>
+            <li><a href="cooking.html">Cooking</a></li>
+            </ul>
+        </nav>
+        <h1>Scrambled Eggs on Toast</h1>
+        <aside>
+        <h2>Ingredients</h2>
+            <ul>
+            <li>3 eggs</li>
+                <li>Salt and pepper</li>
+                <li>Milk</li>
+                <li>Toast</li>
+                <li>Non-stick spray</li>
+                <li>Small bowl</li>
+                <li>Pan, flipper, and plate</li>
+            </ul>
+            </aside>
+        
+        <p><img src="Images/iam.jpeg"/></p>
+        <img id="display-image" onclick="swapImage()" src="Images/download.jpeg" width="180" height="180"/>
+        <p>Click on the image to change it!</p>
+        <script>
+        function swapImage() {
+            var imageDisplayed = document.getElementById('display-image');if (imageDisplayed.src.match("images/download.jpeg")) {
+                imageDisplayed.src = "images/download 2.jpeg";
+            }
+            else {
+                imageDisplayed.src = "images/download.jpeg";
+            }
+        }
+        </script>
+        <article>
+        <h3>Steps</h3>
+            <ol>
+            <li>Crack 3 eggs into small bowl. Add a tiny bit of milk to the eggs. Also add salt and pepper. Wisk all together.</li>
+                <li>Put toast in toaster.</li>
+                <li>Add non stick spray to pan. Pour mixture into pan. Stir the whole cooking prosses. When eggs are rubbery then turn off burner.</li>
+                <asside>
+                    <section>
+                    <p class="tip">Make sure to stir the whole time otherwise they will stick to the pan!</p>
+                    </section>
+                </asside>
+                <li>Take toast out of toaster. Butter face up side. Place toast on plate.</li>
+                <li>Place eggs on toast.</li>
+            </ol>
+            <p>Serve hot. Makes one serving.</p>
+        </article>
+    </body>
+</html>
